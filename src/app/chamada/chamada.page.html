@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>chamada</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>minha senha : {{dados.senha}}</ion-card-subtitle>
+        <ion-card-title>chamada</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-col class="font">{{chamada.senha}}</ion-col>
+      </ion-card-content>
+      <ion-card-header>
+        <ion-card-title>Guiche</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-col class="font2">{{chamada.guiche}}</ion-col>
+      </ion-card-content>
+      <ion-button expand="full" (click)="voltar()">volar</ion-button>
+    </ion-card>
+
+
+  
+</ion-content>
